@@ -1,0 +1,1 @@
+# This website help you to generate password. To create strong password, we recommend that you use all combination available (uppercase, lowercase, number, and symbol) in this humble website. When the generated password does not match your prefered style, please press generate again to create a new one. 

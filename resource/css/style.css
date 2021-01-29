@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../image/background.jpg')
+
+}
+
+table, th {
+  /* border: 1px solid blue; */
+}
+
+table, tr {
+  /* border: 1px solid blue; */
+}
+
+
+#judul {
+  font-style:italic;
+  font-weight: 100;
+  color: darkgray;
+  font-size: 40px;
+}
+
+div.container-besar {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.bagian-form {
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  text-align: center;
+  float: left;
+  width: 49%;
+}
+
+div.bagian-tabel {
+  width: 49%;
+  float: right;
+  height: 295px;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+}
+
+#listpassword {
+  margin-left:auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+input#symbol {
+  margin-left: 25px;
+}
+
+input#number {
+  margin-left: 21px;
+}
+
+input#uppercase {
+  margin-left: 2px;
+}
+
+input#lowercase {
+  margin-left: 1px;
+}
+
+#label-password-length {
+  margin-left: -26px;
+}
+
+input[data-readonly] {
+  pointer-events: none;
+}
+
+/* input#save-button {
+  background-color: white;
+  color: black;
+  border: 2px solid ;
+}
+
+input#save-button:hover {
+  background-color: orange;
+  color: white;
+}
+
+input#submit-button {
+  background-color: white;
+  color: black;
+  border: 2px solid ;
+}
+
+input#submit-button:hover {
+  background-color: orange;
+  color: white;
+}
+
+input#reset {
+  background-color: white;
+  color: black;
+  border: 2px solid ;
+}
+
+input#reset:hover {
+  background-color: orange;
+  color: white;
+}
+
+button#delete-row:hover {
+  background-color: orange;
+  color: white;
+} */
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button#delete-row{
+  margin-top: 20px;
+}

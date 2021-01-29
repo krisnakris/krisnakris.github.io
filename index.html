@@ -1,1 +1,76 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./resource/css/style.css" rel="stylesheet">
+  <title>Generate Password</title>
+</head>
+<body>
+  <div class="container-besar">
+    <h2 id="judul">Password Generator</h2>
+    <div class="bagian-form">
+      <form>
+        <label for="length" id="label-password-length">Password Length</label>
+        <input type="range" name= "length" id="length" min="8" max="20">
+        <span id="length-value">14</span>
+        <br>
+    
+        <label for="uppercase">Uppercase</label>
+        <input type="checkbox" name= "uppercase" id="uppercase" value="false">
+        <br>
+    
+        <label for="lowercase">Lowercase</label>
+        <input type="checkbox" name= "lowercase" id="lowercase" value="false">
+        <br>
+    
+        <label for="number">Number</label>
+        <input type="checkbox" name= "number" id="number" value="false">
+        <br>
+    
+        <label for="symbol">Symbol</label>
+        <input type="checkbox" name= "symbol" id="symbol" value="false">
+        <br>
+    
+        <br>
+    
+        <label for="">Generated Password</label>
+        <br>
+        <input type="text" id="passgenerate" value="" maxlength="20" data-readonly>
+        
+        <br>
+        <br>
+        <input type="text" id="sites" value=""  maxlength="30" placeholder="SITES" >
+        <br>
+       
+        <br>
+        <input type="text" id="username" value="" maxlength="30" placeholder="USERNAME">
+        <br>
+        <br>
+        
+        <input type="submit" value="Save" id="save-button" class="button">
+        <input type="submit" value="Generate" id="submit-button" class="button">
+        <input type="submit" value="Reset" id="reset" class="button">
+        <br>
+      </form>
+      <br>
+    </div>
+
+    <div class="bagian-tabel">
+      <button id="delete-row" class="button">Delete First Row</button>
+      <br>
+      <br>
+      <table id="listpassword">
+        <tr>
+          <th>Username</th>
+          <th>Password</th>
+          <th>Sites</th>
+        </tr>
+      </table>
+    </div>  
+  </div>
+  
+</body>
+  <script src="./resource/js/main.js"></script>
+</html>
